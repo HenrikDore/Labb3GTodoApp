@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  NewTodoClass.h
 //  Labb3TodoList
 //
 //  Created by Henrik Doré on 2020-01-20.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-@property (strong, nonatomic) UIWindow *window;
+NS_ASSUME_NONNULL_BEGIN
 
+@interface NewTodoClass : UIView
 
 @end
 
+NS_ASSUME_NONNULL_END

@@ -16,6 +16,7 @@
 		8E31396123D5D94D00552D50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E31396023D5D94D00552D50 /* main.m */; };
 		8E31396B23D5D94D00552D50 /* Labb3TodoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E31396A23D5D94D00552D50 /* Labb3TodoListTests.m */; };
 		8E31397623D5D94D00552D50 /* Labb3TodoListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E31397523D5D94D00552D50 /* Labb3TodoListUITests.m */; };
+		8E31398823D5EB7600552D50 /* addNewTodoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E31398723D5EB7600552D50 /* addNewTodoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		8E31397123D5D94D00552D50 /* Labb3TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Labb3TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E31397523D5D94D00552D50 /* Labb3TodoListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Labb3TodoListUITests.m; sourceTree = "<group>"; };
 		8E31397723D5D94D00552D50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E31398623D5EB7600552D50 /* addNewTodoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = addNewTodoViewController.h; sourceTree = "<group>"; };
+		8E31398723D5EB7600552D50 /* addNewTodoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = addNewTodoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		8E31394D23D5D94900552D50 /* Labb3TodoList */ = {
 			isa = PBXGroup;
 			children = (
+				8E31398623D5EB7600552D50 /* addNewTodoViewController.h */,
+				8E31398723D5EB7600552D50 /* addNewTodoViewController.m */,
 				8E31394E23D5D94900552D50 /* AppDelegate.h */,
 				8E31394F23D5D94900552D50 /* AppDelegate.m */,
 				8E31395123D5D94900552D50 /* SceneDelegate.h */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E31398823D5EB7600552D50 /* addNewTodoViewController.m in Sources */,
 				8E31395623D5D94900552D50 /* ViewController.m in Sources */,
 				8E31395023D5D94900552D50 /* AppDelegate.m in Sources */,
 				8E31396123D5D94D00552D50 /* main.m in Sources */,
@@ -442,6 +448,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TTAWR9TQMD;
 				INFOPLIST_FILE = Labb3TodoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -459,6 +466,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TTAWR9TQMD;
 				INFOPLIST_FILE = Labb3TodoList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
